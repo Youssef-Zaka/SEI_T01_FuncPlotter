@@ -10,7 +10,7 @@ Function Plotter Task built in flutter. A desktop application that plots user de
   
   - Supports showing alerts when the user inputs invalid expressions or range
 
-
+## How to run the App
 To run the Application, got to **FunctionPlotter\Release** and run **function_plotter.exe**, The other files in the folder (.dll for example) are needed for this app to run, please do copy the entire **Release** folder if you want to move the project elsewhere.
 
 
