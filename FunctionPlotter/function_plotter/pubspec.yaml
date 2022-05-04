@@ -38,6 +38,8 @@ dependencies:
   eval_ex: ^1.1.6
   bitsdojo_window: ^0.1.1+1
   syncfusion_flutter_charts: ^20.1.52
+  o_popup: ^1.0.1
+  
   
 
 dev_dependencies:

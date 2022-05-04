@@ -1,8 +1,6 @@
 import 'package:eval_ex/expression.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
 
-import 'package:function_plotter/main.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   var exp = Expression('2+2');
