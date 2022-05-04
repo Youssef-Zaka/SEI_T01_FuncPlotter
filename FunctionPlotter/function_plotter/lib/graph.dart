@@ -17,11 +17,13 @@ class Graph extends StatefulWidget {
 class _GraphState extends State<Graph> {
   @override
   Widget build(BuildContext context) {
-    //create a list of Data from start to end with step size of 0.01
     List<Data> data = [];
     Expression exp = Expression(widget.exp);
 
-    for (double i = widget.start; i <= widget.end; i += 0.05) {
+    //calculate step size as a fraction of the range
+    double step = (widget.end - widget.start).abs() / 2000;
+
+    for (double i = widget.start; i <= widget.end; i += step) {
       try {
         exp.setStringVariable('x', i.toString());
         var y = exp.eval()?.toDouble();
@@ -30,7 +32,6 @@ class _GraphState extends State<Graph> {
             y = 0;
           }
         }
-
         data.add(Data(i, y ?? 0));
       } catch (e) {
         // print(e);

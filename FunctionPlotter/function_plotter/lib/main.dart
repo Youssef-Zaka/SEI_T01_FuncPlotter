@@ -258,7 +258,7 @@ class _FuncPlotterState extends State<FuncPlotter> {
                                       xend = 10;
                                     } else {
                                       if (isNumeric(txControllerXend.text)) {
-                                        xstart =
+                                        xend =
                                             double.parse(txControllerXend.text);
                                       } else {
                                         var dialoge = AlertDialog(
