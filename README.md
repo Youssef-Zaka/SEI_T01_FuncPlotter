@@ -1,4 +1,4 @@
-# SEI_T01_FuncPlotter
+# Simple Function Plotter in Flutter
 
 Function Plotter Task built in flutter. A desktop application that plots user defined functions.
 
